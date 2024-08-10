@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 90%;
+    margin: 0 auto;
+    height: 650px;
+    border: 2px solid red;
+}
+.nav-h{
+    font-size: 25px;
+    font-weight: 700px;
+    color: rgb(58, 58, 58);
+}
+.nav-p{
+    font-size:16px ;
+    font-weight:600px ;
+    color: rgb(58, 58, 58);
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+    justify-content: space-between;
+}
+.one{
+    height: 52px;
+    width:245px ;
+    border: 2px solid red;
+}
+.two{
+    display: flex;
+    width: 450px;
+    height: 36px;
+    justify-content: space-evenly;
+    border: 2px solid red;
+}
+.header-h{
+    font-size: 52px;
+    font-weight:700px ;
+    color:rgb(58, 58, 58) ;
+}
+.header-p{
+    font-size: 16px;
+    font-weight: 600px;
+    color: rgb(58, 58, 58);
+    margin-top: 20px;
+}
+.header-btn{
+    width: 195px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+    border: none;
+    margin-top: 50px;
+}
+.one-div{
+    width:580px ;
+    height: 270px;
+    margin-top: 145px;
+    border: 2px solid red;
+    
+}
+.two-div{
+    width:480px ;
+    height: 450px;
+    background: url("../images/Circle\ design.svg");
+    margin-top: 80px;
+    border: 2px solid red;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+/* section-one */
+.logo{
+    width: 80%;
+    height: 115px;
+    margin: 0 auto;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    box-shadow: 2px 2px 2px rgb(99, 92, 92);
+}
+.logo-pic{
+    width:120px ;
+    height: 40px;
+}
+/* section cart */
