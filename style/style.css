@@ -15,8 +15,9 @@ body{
 .line{
     width: 30px;
     background-color: black;
-    height: 4px;
+    height: 3px;
     margin: 3px 3px;
+    background-color: rgb(58, 58, 58);
 }
 .header{
     width: 90%;
@@ -236,7 +237,6 @@ body{
     flex-direction: column;
     justify-content: space-around;
     margin: 0 auto;
-    margin-top: 40px;
     /* border: 2px solid red; */
 }
 .footer-h{
@@ -249,3 +249,4 @@ body{
     font-size: 14px;
     color:rgb(217, 219, 225) ;
 }
+/* finis */
