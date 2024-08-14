@@ -1,0 +1,49 @@
+@media screen and (max-width:576px) {
+    .two{
+        display: none;
+    }
+    .nav-bar{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .burger{
+        display: block;
+    }
+    .header-container{
+        flex-direction: column-reverse;
+    }
+    .two-div{
+        width: 95%;
+        height: 257px; 
+        border: 2px solid red;
+        margin: 0 auto;
+        margin-top: 50px;
+        background: none;
+        background: url(../images/Circle\ design.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .camera{
+        width: 100%;
+        height: 250px;
+        object-fit: contain;
+    }
+    .one-div{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+        text-align: center;
+        border: 2px solid red;
+    }
+    .nav-bar{
+        margin-top: 30px;
+    }
+    .nav-h{
+        font-size: 18px;
+    }
+    .burger{
+        margin-left: 75%;
+        margin-top: -20px;
+    }
+}
